@@ -19,9 +19,6 @@ public class MyController {
             ObjectMapper objectMapper = new ObjectMapper();
             String jsonString = objectMapper.writeValueAsString(container);
 
-            // Write JSON string to file
-            JsonFileWriter.writeToJsonFile(container, "output.json");
-
             return jsonString;
         } catch (Exception e) {
             return "Error generating data: " + e.getMessage();
