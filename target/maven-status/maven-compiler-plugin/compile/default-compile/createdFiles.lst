@@ -1,2 +1,5 @@
+com/example/demo/errorhandling/JsonProcessingException.class
+com/example/demo/errorhandling/DataGenerationException.class
+com/example/demo/DataGenerator.class
 com/example/demo/JavaAppApplication.class
-com/example/demo/MyController.class
+com/example/demo/errorhandling/CustomExceptionHandler.class
